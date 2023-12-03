@@ -8,6 +8,7 @@ import (
 
 	"github.com/nonatomiclabs/advent-of-code-2023/day_01"
 	"github.com/nonatomiclabs/advent-of-code-2023/day_02"
+	"github.com/nonatomiclabs/advent-of-code-2023/day_03"
 )
 
 func main() {
@@ -18,6 +19,7 @@ func main() {
 	solutions := map[int]func([]string, bool) int{
 		1: day_01.Solution,
 		2: day_02.Solution,
+		3: day_03.Solution,
 	}
 
 	daySolution, ok := solutions[*day]
