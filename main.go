@@ -12,6 +12,7 @@ import (
 	"github.com/nonatomiclabs/advent-of-code-2023/day_04"
 	"github.com/nonatomiclabs/advent-of-code-2023/day_05"
 	"github.com/nonatomiclabs/advent-of-code-2023/day_06"
+	"github.com/nonatomiclabs/advent-of-code-2023/day_07"
 )
 
 func main() {
@@ -26,6 +27,7 @@ func main() {
 		4: day_04.Solution,
 		5: day_05.Solution,
 		6: day_06.Solution,
+		7: day_07.Solution,
 	}
 
 	daySolution, ok := solutions[*day]
